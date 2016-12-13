@@ -29,3 +29,6 @@ filetype indent on
 set wildmenu
 set lazyredraw
 set showmatch
+
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor='latex'
